@@ -17,7 +17,7 @@ namespace AccountAPI.Models
         public string Email { get; set; }
        
         public string PhoneNumber { get; set; }
-        //
+        
         public DateTime? DateOfBirth { get; set; }
 
         public float? EnergyConsumption { get; set; }

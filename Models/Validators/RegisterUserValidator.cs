@@ -20,7 +20,9 @@ namespace AccountAPI.Models.Validators
 
 
             RuleFor(x => x.Pesel).
-              NotEmpty();
+              NotEmpty()
+              .Length(11);
+              
 
 
             RuleFor(x => x.PhoneNumber)

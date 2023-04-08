@@ -63,8 +63,12 @@ namespace AccountAPI
                 var dbContext = scope.ServiceProvider
                     .GetRequiredService<AccountDbContext>();
                
-                   dbContext.Database.Migrate();
-                   dbContext.Database.EnsureCreated();
+               
+                    dbContext.Database.Migrate();
+                    dbContext.Database.EnsureCreated();
+
+                
+                 
 
             }
 
